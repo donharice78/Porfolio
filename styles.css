@@ -7,6 +7,8 @@
     border: none;
     outline: none;
     font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+    
 }
 
 :root{
@@ -62,6 +64,7 @@ html{
     color: var(--color-text);
     cursor: default;
     text-decoration: none;
+    
 }
 
 .navbar a{
