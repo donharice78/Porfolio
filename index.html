@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
     <!-- Lien vers la feuille de style principale -->
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -17,7 +21,7 @@
     <script>
         document.addEventListener('DOMContentLoaded', function() {
           var typed = new Typed('.typing', {
-            strings: ["Développeur Frontend & Backend", "Designer UI/UX"],
+            strings: ["Développeur Web", "Specialiste Symfony"],
             typeSpeed: 100,
             backSpeed: 100,
             backDelay: 1000,
@@ -51,9 +55,12 @@
             <h3>Je suis un
                 <span class="typing"></span>
             </h3>
-            <p>Je suis un développeur passionné avec une solide expérience en développement web. J'ai une bonne compréhension de HTML, CSS, JavaScript et PHP.
-                <br>J'ai également de l'expérience avec des frameworks comme Bootstrap et jQuery. Je suis actuellement en train d'apprendre React et Node.js.
-            </p>
+            <p style="text-indent: 20px;">
+                Je suis un développeur passionné spécialisé dans le développement web avec le framework Symfony. J'ai une solide compréhension de HTML, CSS, JavaScript, et PHP.
+                <br><p style="text-indent: 20px;">J'ai également de l'expérience avec des frameworks et bibliothèques comme React.js, Vue.js, Bootstrap, me permettant de créer des applications web performantes et bien structurées.</p>
+             </p>
+             
+             
 
             <div class="social-media">
                 <a href="https://www.facebook.com/donharice.nkongho" target="_blank" rel="noopener noreferrer">
@@ -74,25 +81,24 @@
         </div>
 
         <div class="home-img">
-            <img src="images/IMG_7430(2).png" alt="Don-Harice Nkongho">
+            <img src="images/IMG_7430bg.png" alt="Don-Harice Nkongho">
         </div>
     </section>
 
     <!-- Section À propos -->
     <section class="about" id="about">
         <div class="about-img">
-            <img src="images/IMG_7430(2).png" alt="Don-Harice Nkongho">
+            <img src="images/IMG_7430bg.png" alt="Don-Harice Nkongho">
         </div>
         <div class="about-content">
             <h2 class="heading">À propos
                 <span>de moi</span>
             </h2>
-            <h3>Développeur Frontend & Backend</h3>
-            <p>Je me spécialise dans le développement frontend, notamment avec React.js et Vue.js, et j'ai une solide expérience dans la création de designs responsives et adaptés aux mobiles. 
-                Ma passion réside dans la création d'expériences utilisateur fluides et dans la réalisation d'idées à travers le code.
-                <br>
-                J'ai également de l'expérience en développement backend, avec une bonne compréhension de PHP et MySQL. J'ai travaillé avec des API, des bases de données, et des langages de script côté serveur comme Node.js et Python.
-            </p>
+            <h3 style="text-indent: 50px;">Développeur Web et Web Mobile</h3>
+            <p style="text-indent: 20px;">Je me spécialise dans le développement d'applications web avec le framework Symfony, en combinant une expérience en Bootstrap, Css, Js, PHP et MySQL pour créer des solutions robustes et performantes. J'ai une expérience dans la création de designs responsives et adaptés aux mobiles, et je m'engage à offrir des expériences utilisateur fluides à travers une architecture de code bien pensée.</p>
+                <p style="text-indent: 20px;"></p>
+                <p style="text-indent: 20px;">Je suis également un expert en résolution de problèmes et en optimisation des performances, et j'ai une bonne connaissance de l'analyse et de la résolution de problèmes techniques.</p>
+             
             <a href="" class="btns">En savoir plus</a>
         </div>
     </section>
@@ -109,14 +115,16 @@
             </div>
 
             <div class="services-content">
-                <i class="fa-solid fa-server"></i>
+                <i class="fa-brands fa-symfony"></i>
                 <h3>Développement Backend</h3>
-                <p>Je me spécialise dans la création de sites web responsifs et conviviaux utilisant HTML, CSS et JavaScript. J'ai de l'expérience avec des frameworks frontend comme Bootstrap et jQuery.</p>
-                <a href="#contact" class="btns">En savoir plus</a>
+                <p>Spécialisé dans le développement d'applications web sécurisées et performantes avec Symfony. 
+                    <br>Expertise en PHP, MySQL, API RESTful et gestion des rôles utilisateurs, en mettant l'accent sur une architecture propre et les meilleures pratiques en matière de sécurité. 
+                 </p>
+                                 <a href="#contact" class="btns">En savoir plus</a>
             </div>
 
             <div class="services-content">
-                <i class="fa-brands fa-symfony"></i>
+                <i class="fa-solid fa-sitemap"></i>
                 <h3>Développement Web</h3>
                 <p>Je me spécialise dans la création de sites web responsifs et conviviaux utilisant HTML, CSS et JavaScript. J'ai de l'expérience avec des frameworks frontend comme Bootstrap et jQuery.</p>
                 <a href="#contact" class="btns">En savoir plus</a>
@@ -129,57 +137,59 @@
         <h2 class="heading">Mes <span>Projets</span></h2>
         <div class="portfolio-container">
             <div class="portfolio-content">
-                <img src="images/ai.jpg" alt="Portfolio">
+                <img src="images/webdev.png" alt="Portfolio">
                 <div class="portfolio-layer">
-                    <h3>Site Web Portfolio</h3>
-                    <p>Ceci est un site web portfolio que j'ai créé en utilisant HTML, CSS et JavaScript. Il a un design simple et épuré qui met en valeur mes compétences et projets.</p>
-                    <a href="" class="btns"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    <h3>Web Dev</h3>
+                    <p>Ceci est un portfolio créé avec Symfony, présentant un design épuré qui met en valeur mes compétences et projets en développement web.
+
+                        .</p>
+                    <a href="https://webdev77.fr/"target="_blank" class="btns"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                 </div>
             </div>
 
             <!-- Répétition des éléments de portfolio pour la démonstration -->
             <div class="portfolio-content">
-                <img src="images/ai.jpg" alt="Portfolio">
+                <img src="images/immo.png" alt="Portfolio">
                 <div class="portfolio-layer">
-                    <h3>Site Web Portfolio</h3>
-                    <p>Ceci est un site web portfolio que j'ai créé en utilisant HTML, CSS et JavaScript. Il a un design simple et épuré qui met en valeur mes compétences et projets.</p>
-                    <a href="" class="btns"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    <h3>Immo77</h3>
+                    <p>Ceci est un portfolio créé avec HTML, CSS et JavaScript, présentant un design épuré qui met en valeur mes compétences et mes projets.</p>
+                    <a href="https://agence-immo77.netlify.app/"target="_blank" class="btns"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                 </div>
             </div>
 
             <div class="portfolio-content">
-                <img src="images/ai.jpg" alt="Portfolio">
+                <img src="images/cars.png" alt="Portfolio">
                 <div class="portfolio-layer">
-                    <h3>Site Web Portfolio</h3>
+                    <h3>Cars77</h3>
                     <p>Ceci est un site web portfolio que j'ai créé en utilisant HTML, CSS et JavaScript. Il a un design simple et épuré qui met en valeur mes compétences et projets.</p>
-                    <a href="" class="btns"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    <a href="https://dhn-cars77.netlify.app/"target="_blank" class="btns"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                 </div>
             </div>
 
             <div class="portfolio-content">
-                <img src="images/ai.jpg" alt="Portfolio">
+                <img src="images/fleurs.png" alt="Portfolio">
                 <div class="portfolio-layer">
-                    <h3>Site Web Portfolio</h3>
+                    <h3>DHN Fleurs</h3>
                     <p>Ceci est un site web portfolio que j'ai créé en utilisant HTML, CSS et JavaScript. Il a un design simple et épuré qui met en valeur mes compétences et projets.</p>
-                    <a href="" class="btns"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    <a href="https://dhnfleurs.netlify.app/"target="_blank" class="btns"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                 </div>
             </div>
 
             <div class="portfolio-content">
-                <img src="images/ai.jpg" alt="Portfolio">
+                <img src="images/house.png" alt="Portfolio">
                 <div class="portfolio-layer">
-                    <h3>Site Web Portfolio</h3>
+                    <h3>Real Estate</h3>
                     <p>Ceci est un site web portfolio que j'ai créé en utilisant HTML, CSS et JavaScript. Il a un design simple et épuré qui met en valeur mes compétences et projets.</p>
-                    <a href="" class="btns"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    <a href="https://agence-immo77.netlify.app/"target="_blank" class="btns"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                 </div>
             </div>
 
             <div class="portfolio-content">
-                <img src="images/ai.jpg" alt="Portfolio">
+                <img src="images/IA gen.jpg" alt="Portfolio">
                 <div class="portfolio-layer">
-                    <h3>Site Web Portfolio</h3>
+                    <h3>Comming Soon</h3>
                     <p>Ceci est un site web portfolio que j'ai créé en utilisant HTML, CSS et JavaScript. Il a un design simple et épuré qui met en valeur mes compétences et projets.</p>
-                    <a href="" class="btns"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    <a href=""target="_blank" class="btns"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                 </div>
             </div>
         </div>
@@ -192,22 +202,23 @@
             <div class="contact-content">
                 <h3>Entrer en Contact</h3>
                 <p>Si vous avez des questions ou souhaitez entrer en contact, veuillez remplir le formulaire ci-dessous et je vous répondrai dès que possible.</p>
-                <form action="./message.php" method="POST">
+                <form action="https://formspree.io/f/manwvywr" method="POST">
                     <div class="input-box">
                         <input type="text" id="name" name="name" placeholder="Nom" required>
                         <input type="email" id="email" name="email" placeholder="Email" required>
                     </div>
-
+                
                     <div class="input-box">
                         <input type="text" id="phone" name="phone" placeholder="Téléphone">
                         <input type="text" id="subject" name="subject" placeholder="Sujet">
                     </div>
-
+                
                     <label for="message">Message</label>
                     <textarea id="message" name="message" placeholder="Message" required></textarea>
-
+                
                     <input type="submit" value="Envoyer" class="btns">
                 </form>
+                
             </div>
         </div>
     </section>
